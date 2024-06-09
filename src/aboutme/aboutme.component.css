@@ -1,21 +1,27 @@
 /* styles.css */
+html {
+  margin: 0;
+  padding: 0;
+
+}
 
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
     color: #333;
     align-items: center;
     justify-content: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 .container {
     max-width: 1200px;
-    margin: 20px auto;
+    margin: auto;
     padding: 20px;
     background-color: #ee99e3;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
     align-items:center ;
     justify-content: center;
 }
